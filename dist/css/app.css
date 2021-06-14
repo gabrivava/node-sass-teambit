@@ -14,6 +14,7 @@ body {
   width: 80%;
   margin: auto;
   color: #58402C;
+  padding-bottom: 4rem;
 }
 #site_header .nav {
   display: flex;
@@ -81,9 +82,50 @@ body {
 #site_header .jumbotron section .registrati button img {
   height: 20px;
 }
+#site_header .jumbotron section .registrati span {
+  padding: 0.5rem;
+}
 #site_header .jumbotron section .small {
   font-size: 1.2rem;
 }
 #site_header .jumbotron > img {
   width: 50%;
+}
+
+.sezioni {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  color: #58402C;
+}
+.sezioni .sezione {
+  border-bottom: 2px solid #DEC6B1;
+}
+.sezioni .sezione h2 {
+  line-height: 3rem;
+  font-size: 1.8rem;
+  width: 40%;
+  margin: auto;
+  padding: 3rem;
+}
+.sezioni .sezione .riga {
+  display: flex;
+  padding-top: 2rem;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.sezioni .sezione .riga img {
+  height: 200px;
+  padding-bottom: 1rem;
+}
+.sezioni .sezione .riga p {
+  font-size: 1.2rem;
+}
+.sezioni .sezione > img {
+  height: 400px;
+  margin: 5rem;
+}
+
+#site_main .container {
+  background-color: #FFE7D2;
 }

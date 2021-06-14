@@ -1,0 +1,34 @@
+.sezioni {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: $brand_primary;
+    .sezione {
+        h2 {
+            line-height: 3rem;
+            font-size: 1.8rem;
+            width: 40%;
+            margin: auto;
+            padding: 3rem;
+        }
+        .riga {
+            display: flex;
+            padding-top: 2rem;
+            justify-content: space-between;
+            align-items:flex-end;
+            img {
+                height: 200px;
+                padding-bottom: 1rem;
+            }
+            p {
+                font-size: 1.2rem;
+            }
+        }
+
+        &>img {
+            height: 400px;
+            margin: 5rem;
+        } 
+        border-bottom: 2px solid #DEC6B1;
+    }
+}

@@ -2,7 +2,7 @@
     width: 80%;
     margin: auto;
     color: $brand_primary;
-
+    padding-bottom: 4rem;
     .nav {
         display: flex;
         justify-content: space-between;
@@ -66,6 +66,9 @@
                     img {
                         height: 20px;
                     }
+                }
+                span {
+                    padding: 0.5rem;
                 }
             }
             .small {

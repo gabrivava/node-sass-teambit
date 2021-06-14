@@ -1,4 +1,17 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/img/after.png": "/img/after.png",
+    "/img/alex.png": "/img/alex.png",
+    "/img/before.png": "/img/before.png",
+    "/img/bohdan.png": "/img/bohdan.png",
+    "/img/chat.svg": "/img/chat.svg",
+    "/img/communication.jpg": "/img/communication.jpg",
+    "/img/nofeedback.png": "/img/nofeedback.png",
+    "/img/notsafe.png": "/img/notsafe.png",
+    "/img/performance-review.jpg": "/img/performance-review.jpg",
+    "/img/recognition.jpg": "/img/recognition.jpg",
+    "/img/review.jpg": "/img/review.jpg",
+    "/img/safe.png": "/img/safe.png",
+    "/img/slack-logo.svg": "/img/slack-logo.svg"
 }

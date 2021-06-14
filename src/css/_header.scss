@@ -1,0 +1,39 @@
+#site_header {
+    width: 90%;
+    margin: auto;
+    color: $brand_primary;
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        align-items: center;
+        border-bottom: 2px solid $brand_primary;
+        &>img {
+            height: 40px;
+        }
+        ul {
+            display: flex;
+            list-style: none;
+            li {
+                padding: 1rem;
+                font-weight: 600;
+            }
+            button {
+                font-weight: 600;
+                background-color: white;
+                border-radius: 5px;
+                border-color: #2D4892;
+                color: #2D4892;
+                display: flex;
+                align-items: center;
+                font-size: 1rem;
+                padding: 0 0.5rem;
+                img {
+                    height: 40px;
+                    padding: 0.5rem;
+                }
+            }
+        }
+    }
+}

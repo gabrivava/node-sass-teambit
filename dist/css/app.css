@@ -1,5 +1,50 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap);
+/* google fonts */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#site_header {
+  width: 90%;
+  margin: auto;
+  color: #58402C;
+}
+#site_header .nav {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  border-bottom: 2px solid #58402C;
+}
+#site_header .nav > img {
+  height: 40px;
+}
+#site_header .nav ul {
+  display: flex;
+  list-style: none;
+}
+#site_header .nav ul li {
+  padding: 1rem;
+  font-weight: 600;
+}
+#site_header .nav ul button {
+  font-weight: 600;
+  background-color: white;
+  border-radius: 5px;
+  border-color: #2D4892;
+  color: #2D4892;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  padding: 0 0.5rem;
+}
+#site_header .nav ul button img {
+  height: 40px;
+  padding: 0.5rem;
 }
